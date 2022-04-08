@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html prefix="og: http://ogp.me/ns#" lang="en" style="height: 100%">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=5" />
+
+  <title>Student-Login</title>
+  <meta name="description" content="Student-Login Description">
+  <meta property="og:title" content="Student-Login">
+  <meta property="og:description" content="Student-Login Description">
+  <meta name="generator" content="Quest">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:500">
+  <link rel="stylesheet" href="index.css">
+
+ <!-- <script src="index.js"></script> -->
+
+</head>
+
+<body class="websiteBody">
+  <div class="Page-outer">
+    <div id="Page" data-name="Page" class="Page">
+      <div class="Frame-outer">
+        <div id="Frame" data-name="Student-Login" class="Frame">
+          <div class="STUDENT-LOGIN-outer">
+            <div id="STUDENT-LOGIN" data-name="STUDENT LOGIN" class="STUDENT-LOGIN">
+              <div key="0">STUDENT LOGIN</div>
+            </div>
+          </div>
+          <div class="stdimg-outer">
+            <img id="stdimg" data-name="stdimg" alt="stdimg" class="stdimg" />
+          </div>
+                <!-- <div class="field-outer">
+                  <div id="field" data-name="field" alt="field" class="field"> -->
+                  <form name="loginForm" method="post" action="login.php">
+                    <table width="20%" bgcolor="0099CC" align="center">
+
+                      <tr>
+                        <td colspan=2>
+                          <center>
+                            <font size=4><b>Enter your details:</b></font>
+                          </center>
+                        </td>
+                      </tr>
+                      <br /></br>
+                      <tr>
+                        <td>Username:</td>
+                        <td><input type="text" size=25 name="userid"></td>
+                      </tr>
+
+                      <tr>
+                        <td>Password:</td>
+                        <td><input type="Password" size=25 name="pwd"></td>
+                      </tr>
+
+                      <tr>
+                        <td><input type="Reset"></td>
+                        <td><input type="submit" onclick="return check(this.form)" value="Login"></td>
+                      </tr>
+
+                    </table>
+                  </form>
+                  <script language="javascript">
+                    function check(form) {
+
+                      if (form.userid.value >= "100" && form.userid.value <= "200" && form.pwd.value == "1000") {
+                        alert("Login Successfully")
+                        return false;
+                      } else {
+                        alert("Error Password or Username")
+                        return false;
+                      }
+                    }
+                  </script>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:1024px;
+  min-width:200px;
+  max-width:1440px;
+  margin:auto;
+  background-color:rgba(173, 213, 251, 1);
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.STUDENT-LOGIN{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:570px;
+  width:300px;
+  min-width:300px;
+  margin-top:134px;
+  margin-bottom:843px;
+  min-height:47px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:500;
+  font-size:40px;
+  line-height:48.79999923706055px;
+}
+.STUDENT-LOGIN-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.stdimg{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:122px;
+  width:598px;
+  min-width:598px;
+  height:595px;
+  margin-top:-810px;
+  margin-bottom:215px;
+  min-height:595px;
+  content:url(assets/images/stdimg.png);
+}
+.stdimg-outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.field{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:720px;
+  width:598px;
+  min-width:598px;
+  height:595px;
+  margin-top:-810px;
+  margin-bottom:215px;
+  min-height:595px;
+  background-color:rgba(255, 255, 255, 1);
+  border-radius:45px;
+}
+.field-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
